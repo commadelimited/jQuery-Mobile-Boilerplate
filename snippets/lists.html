@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> jQuery Mobile Boilerplate </title>
+	<link rel="stylesheet"  href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+
+	<!-- if you have a custom theme, add it here -->
+	<link rel="stylesheet"  href="themes/jQuery-Mobile-Boilerplate.css" />
+
+	<link rel="stylesheet" href="css/custom.css" />
+
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="js/application.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	
+</head> 
+<body> 
+	<div data-role="page">
+
+		<div data-role="header">
+			<a href="../index.html" data-icon="home">Home</a>
+			<h1>Listsviews</h1>
+		</div>
+
+		<div data-role="content">
+
+
+
+
+
+<h2>Basic Listview</h2>
+
+<ul data-role="listview" data-inset="true">
+	<li>Robert Heinlein</li>
+	<li>SM Stirling</li>
+	<li>Julian May</li>
+	<li>JRR Tolkien</li>
+	<li>Piers Anthony</li>
+</ul>
+
+<h2>Linked List</h2>
+
+<ul data-role="listview" data-inset="true">
+	<li><a href="../index.html">Robert Heinlein</a></li>
+	<li><a href="../index.html">SM Stirling</a></li>
+	<li><a href="../index.html">Julian May</a></li>
+</ul>
+
+<h2>Linked List</h2>
+
+<ul data-role="listview" data-inset="true">
+	<li>
+		<h3>Robert Heinlein</h3>
+		<p>A selection of his books.</p>
+		<ul>
+			<li>Starship Troopers</li>
+			<li>Friday</li>
+			<li>Door into Summer</li>
+		</ul>
+	</li>
+	<li>
+		<h3>SM Stirling</h3>
+		<p>A selection of his books.</p>
+		<ul>
+			<li>Dies the Fire</li>
+			<li>The Protector's War</li>
+			<li>A Meeting at Corvallis</li>
+		</ul>
+	</li>
+	<li>
+		<h3>Julian May</h3>
+		<p>A selection of her books.</p>
+		<ul>
+			<li>The Many-Colored Land</li>
+			<li>The Golden Torc</li>
+			<li>The Nonborn King</li>
+			<li>The Adversary</li>
+		</ul>
+	</li>
+</ul>
+
+<h2>Numbered List</h2>
+
+<ol data-role="listview" data-inset="true">
+	<li><a href="index.html">Robert Heinlein</a></li>
+	<li><a href="index.html">SM Stirling</a></li>
+	<li><a href="index.html">Julian May</a></li>
+</ol>
+
+<h2>Split-Button List</h2>
+
+<ul data-role="listview" data-split-icon="gear" data-split-theme="d" data-inset="true">
+	<li><a href="index.html">
+		<img src="images/album-bb.jpg" />
+		<h3>Broken Bells</h3>
+		<p>Broken Bells</p>
+		</a><a href="lists-split-purchase.html" data-rel="dialog" data-transition="slideup">Purchase album
+	</a></li>
+	<li><a href="index.html">
+		
+		<img src="images/album-hc.jpg" />
+		<h3>Warning</h3>
+		<p>Hot Chip</p>
+		
+	</a><a href="lists-split-purchase.html" data-rel="dialog" data-transition="slideup">Purchase album
+	</a></li>
+	<li><a href="index.html">
+		<img src="images/album-p.jpg" />
+		<h3>Wolfgang Amadeus Phoenix</h3>
+		<p>Phoenix</p>
+		</a><a href="lists-split-purchase.html" data-rel="dialog" data-transition="slideup">Purchase album
+	</a></li>
+</ul>
+
+<h2>List Dividers</h2>
+
+<ul data-role="listview" data-inset="true">
+	<li data-role="list-divider">Men</li>
+	<li>Robert Heinlein</li>
+	<li>SM Stirling</li>
+	<li>JRR Tolkien</li>
+	<li>Piers Anthony</li>
+	<li data-role="list-divider">Women</li>
+	<li>Julian May</li>
+</ul>
+
+<h2>Search Filter</h2>
+
+<ul data-role="listview" data-inset="true" data-filter="true">
+	<li data-role="list-divider">Men</li>
+	<li>Robert Heinlein</li>
+	<li>SM Stirling</li>
+	<li>JRR Tolkien</li>
+	<li>Piers Anthony</li>
+	<li data-role="list-divider">Women</li>
+	<li>Julian May</li>
+</ul>
+
+<h2>Count Bubbles</h2>
+
+<ul data-role="listview" data-inset="true" data-filter="true">
+	<li>
+		Robert Heinlein
+		<span class="ui-li-count">32</span>
+	</li>
+	<li>
+		SM Stirling
+		<span class="ui-li-count">15</span>
+	</li>
+	<li>
+		JRR Tolkien
+		<span class="ui-li-count">9</span>
+	</li>
+	<li>
+		Piers Anthony
+		<span class="ui-li-count">42</span>
+	</li>
+	<li>
+		Julian May
+		<span class="ui-li-count">27</span>
+	</li>
+</ul>
+
+
+
+
+		</div>
+		
+		<div data-role="footer" data-theme="c">
+			<p>&copy; 2012 - jQuery Mobile Boilerplate</p>
+		</div>	
+		
+	</div>
+</body>
+</html>

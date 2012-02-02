@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> jQuery Mobile Boilerplate </title>
+	<link rel="stylesheet"  href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+
+	<!-- if you have a custom theme, add it here -->
+	<link rel="stylesheet"  href="themes/jQuery-Mobile-Boilerplate.css" />
+
+	<link rel="stylesheet" href="css/custom.css" />
+
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="js/application.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	
+</head> 
+<body> 
+	<div data-role="page">
+
+		<div data-role="header">
+			<a href="../index.html" data-icon="home">Home</a>
+			<h1>Collapsible Content</h1>
+		</div>
+
+		<div data-role="content">
+
+
+
+
+<h2>Collapsible Content Blocks</h2>
+
+<div data-role="collapsible">
+	<h3>Content header</h3>
+	<p>I'm the content that shows/hides when you click the header just above me.</p>
+</div>
+
+<h2>Default to open</h2>
+
+<div data-role="collapsible" data-collapsed="false">
+	<h3>Content header</h3>
+	<p>I'm the content that shows/hides when you click the header just above me.</p>
+</div>
+
+<h2>Themed</h2>
+
+<div data-role="collapsible" data-content-theme="c">
+	<h3>Content header</h3>
+	<p>I'm the content that shows/hides when you click the header just above me.</p>
+</div>
+
+<h2>Themed - content only</h2>
+
+<div data-role="collapsible" data-theme="b" data-content-theme="e" >
+	<h3>Content header</h3>
+	<p>I'm the content that shows/hides when you click the header just above me.</p>
+</div>
+
+<h2>Nested Collapsibles</h2>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="e" data-content-theme="c">
+	<h3>Outer header</h3>
+	<p>I'm the content inside the main collapsible.</p>
+	
+	<div data-role="collapsible" data-theme="c" data-content-theme="c">
+		<h3>I'm a nested collapsible with a child collapsible</h3>
+		<p>I'm a child collapsible.</p>
+		<div data-role="collapsible" data-theme="d" data-content-theme="d">
+			<h3>Nested inside again.</h3>
+			<p>Three levels deep now.</p>
+		</div>
+	</div>
+
+	<div data-role="collapsible" data-content-theme="c">
+		<h3>Collapsed list</h3>
+		<ul data-role="listview" data-inset="true" data-theme="d">
+			<li><a href="index.html">red</a></li>
+			<li><a href="index.html">blue</a></li>
+			<li><a href="index.html">yellow</a></li>
+		</ul>
+	</div><!-- /section 3 -->
+</div>
+
+
+
+		</div>
+		
+		<div data-role="footer" data-theme="c">
+			<p>&copy; 2012 - jQuery Mobile Boilerplate</p>
+		</div>	
+		
+	</div>
+</body>
+</html>
