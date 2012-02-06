@@ -32,4 +32,4 @@ You are invited to contribute code and suggestions to this project. The more the
 
 ### Custom bits:
 
-The Unlicense (aka: public domain)
+Public domain
