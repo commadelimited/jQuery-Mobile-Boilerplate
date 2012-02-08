@@ -1,8 +1,9 @@
 /* 
 	jQuery Mobile Boilerplate
+	application.js
 */
-$(document).bind("mobileinit", function(){
-	// apply overrides here
+$(document).live("pageinit", function(event){
+	// custom code goes here
 
 
 
