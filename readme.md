@@ -13,6 +13,7 @@ Clone the git repo - `git clone git@github.com:commadelimited/jQuery-Mobile-Boil
 * The latest jQuery bits from CDN, with a local option.
 * Override files for both JS and CSS
 * Extensive UI element snippet library. Easy to copy and paste.
+* Includes Scott Jehl's fix for the [iOS orientation bug](https://github.com/scottjehl/iOS-Orientationchange-Fix)
 
 ## Contributing
 
@@ -22,6 +23,7 @@ You are invited to contribute code and suggestions to this project. The more the
 
 * Source: http://github.com/commadelimited/jQuery-Mobile-Boilerplate
 * Twitter: [http://twitter.com/jqmbp](http://twitter.com/jqmbp)
+* Twitter: [http://twitter.com/commadelimited](http://twitter.com/commadelimited)
 
 ## License
 
