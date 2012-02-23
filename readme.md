@@ -6,6 +6,10 @@
 
 Clone the git repo - `git clone git@github.com:commadelimited/jQuery-Mobile-Boilerplate.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Boilerplate/zipball/master)
 
+## Example
+
+[View a simple demo ](http://andymatthews.net/code/jquery-mobile-boilerplate/)
+
 ## Features
 
 * Project ready. Download (or clone) and go!
