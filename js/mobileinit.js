@@ -9,6 +9,12 @@
 */
 $(document).bind('mobileinit', function(event){
 	// apply overrides here
+	//$.mobile.loadingMessage = "Loading ...";
+        //$.mobile.loadingMessageTheme = "a"
+        //$.mobile.loadingMessageTextVisible = false; 
+        //$.mobile.pageLoadErrorMessage = "Error Loading Page"
+        //$.mobile.pageLoadErrorMessageTheme = "e"
+	
 	// Navigation
 	//$.mobile.page.prototype.options.backBtnText = "Go back";
 	//$.mobile.page.prototype.options.addBackBtn      = true;
