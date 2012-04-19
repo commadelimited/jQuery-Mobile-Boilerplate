@@ -9,9 +9,11 @@
 Clone the git repo - `git clone git@github.com:commadelimited/jQuery-Mobile-Boilerplate.git` - or [download it](https://github.com/commadelimited/jQuery-Mobile-Boilerplate/zipball/master)
 
 **Note:** By default, the links to the CSS and JS files are root relative.
+
 `<script src="/js/application.js"></script>`
 
 Boilerplate expects to be placed in the root of your website. If this is not the configuration you're using then you'll need to update these links manually.
+
 `<script src="js/application.js"></script>`
 
 ## Example
