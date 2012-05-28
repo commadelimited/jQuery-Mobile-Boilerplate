@@ -2,7 +2,7 @@
 	jQuery Mobile Boilerplate
 	application.js
 */
-$(document).live("pageinit", function(event){
+$(document).on("pageinit", function(event){
 	// custom code goes here
 
 
