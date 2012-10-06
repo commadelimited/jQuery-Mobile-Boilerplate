@@ -1,7 +1,3 @@
-<!--
-	jQuery Mobile Boilerplate
-	index.html
--->
 <!doctype html>
 <html>
 <head>
@@ -14,7 +10,7 @@
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
 
-<!-- Home screen icon  Mathias Bynens mathiasbynens.be/notes/touch-icons -->
+	<!-- Home screen icon  Mathias Bynens mathiasbynens.be/notes/touch-icons -->
 	<!-- For iPhone 4 with high-resolution Retina display: -->
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon.png">
 	<!-- For first-generation iPad: -->
@@ -28,21 +24,20 @@
 	<meta http-equiv="cleartype" content="on">
 
 	<!-- jQuery Mobile CSS bits -->
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+
+	<!-- if you have a custom theme, add it here -->
+	<link rel="stylesheet"  href="themes/jQuery-Mobile-Boilerplate.css" />
 
 	<!-- Custom css -->
 	<link rel="stylesheet" href="css/custom.css" />
 
 	<!-- Javascript includes -->
-	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery-1.8.2-min.js"></script>
 	<script src="js/mobileinit.js"></script>
 	<script src="js/ios-orientationchange-fix.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script src="js/jquery.mobile-1.2.0.min.js"></script>
 	<script src="js/application.js"></script>
-	<!-- Add a Bookmark Bubble for iDevices, and adds a cookie if already shown -->
-	<script type="text/javascript" src="js/bookmark_bubble.js"></script>
-	<script type="text/javascript" src="js/example.js"></script>
-	<script src="js/jquery.cookie.js"></script>
 	<!-- Startup Images for iDevices -->
 	<script>(function(){var a;if(navigator.platform==="iPad"){a=window.orientation!==90||window.orientation===-90?"images/startup-tablet-landscape.png":"images/startup-tablet-portrait.png"}else{a=window.devicePixelRatio===2?"images/startup-retina.png":"images/startup.png"}document.write('<link rel="apple-touch-startup-image" href="'+a+'"/>')})()</script>
 	<!-- The script prevents links from opening in mobile safari. https://gist.github.com/1042026 -->
@@ -52,19 +47,19 @@
 	<div data-role="page">
 
 		<div data-role="header">
-			<h1>jQuery Mobile Boilerplate 1.1</h1>
+			<h1>jQuery Mobile Boilerplate 1.2</h1>
 		</div>
 
 		<div data-role="content">
 		
 			<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 				<li data-role="list-divider">Snippet Pages</li>
-				<li><a href="snippets/buttons.html">Buttons</a></li>
-				<li><a href="snippets/grids.html">Grids</a></li>
-				<li><a href="snippets/collapsibles.html">Collapsible Boxes</a></li>
-				<li><a href="snippets/collapsible-sets.html">Collapsible Sets</a></li>
-				<li><a href="snippets/forms.html">Form Elements</a></li>
-				<li><a href="snippets/lists.html">List Views</a></li>
+				<li><a href="buttons.html">Buttons</a></li>
+				<li><a href="grids.html">Grids</a></li>
+				<li><a href="collapsibles.html">Collapsible Boxes</a></li>
+				<li><a href="collapsible-sets.html">Collapsible Sets</a></li>
+				<li><a href="forms.html">Form Elements</a></li>
+				<li><a href="lists.html">List Views</a></li>
 			</ul>
 
 		</div>
