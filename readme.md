@@ -2,7 +2,7 @@
 
 "What do I need in a new jQuery Mobile project?". This project is meant to be a single place for developers to get started using jQuery Mobile. It includes icon files, robots.txt (and human).txt files, as well as an extensive snippets library that developers can use as reference.
 
-**Note:** The jQuery team has offered two options for CSS file inclusion. If you're planning on using a custom theme then you only need to include `jquery.mobile.structure-1.2.0.min.css`.
+**Note:** The jQuery team has offered two options for CSS file inclusion. If you're planning on using a custom theme then you only need to include `jquery.mobile.structure-1.3.1.min.css`.
 
 ## Quick start
 
