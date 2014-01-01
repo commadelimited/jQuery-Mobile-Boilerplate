@@ -2,7 +2,7 @@
 
 "What do I need in a new jQuery Mobile project?". This project is meant to be a single place for developers to get started using jQuery Mobile. It includes icon files, robots.txt (and human).txt files, as well as an extensive snippets library that developers can use as reference.
 
-**Note:** The jQuery team has offered two options for CSS file inclusion. If you're planning on using a custom theme then you only need to include `jquery.mobile.structure-1.3.1.min.css`.
+**Note:** The jQuery team has offered two options for CSS file inclusion. If you're planning on using a custom theme then you only need to include `jquery.mobile.structure-1.4.0.min.css`.
 
 ## Quick start
 
@@ -18,10 +18,8 @@ Clone the git repo - `git clone git@github.com:commadelimited/jQuery-Mobile-Boil
 
 ## Features
 
-* jQuery Mobile 1.2 Compatible!
+* jQuery Mobile 1.4 Compatible!
 * Project ready. Download (or clone) and go!
-* The latest jQuery Mobile JS & CSS bits from CDN, with a local option.
-* The latest jQuery bits from CDN, with a local option.
 * Override files for both JS and CSS
 * Extensive UI element snippet library. Easy to copy and paste.
 
