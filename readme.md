@@ -42,3 +42,5 @@ You are invited to contribute code and suggestions to this project. The more the
 ### Custom bits:
 
 Public domain
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/commadelimited/jquery-mobile-boilerplate/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
